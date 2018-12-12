@@ -1,0 +1,8 @@
+provider:
+  name: faas
+  gateway: http://localhost:31112
+functions:
+  blackboxfunc:
+    lang: blackbox-custom
+    handler: ./blackboxfunc
+    image: lukasheinrich/blackboxfunc:latest
