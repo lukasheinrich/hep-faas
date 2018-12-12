@@ -16,3 +16,6 @@ kubectl create -f jupyter
 kubectl logs -l app=jupyter 
 open http://localhost:31313/notebooks/BlackBox.ipynb
 ```
+
+<img src="./screenshot.png" width=600/>
+
