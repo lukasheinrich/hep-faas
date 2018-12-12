@@ -4,8 +4,6 @@ high energy physics functions as a service (based on OpenFaaS)
 
 # Deploy Black-Box function and Bayesian Optimization Driver
 ```
-faas-cli build -f blackboxfunc.yml
-faas-cli push -f blackboxfunc.yml
 faas-cli deploy -f blackboxfunc.yml
 kubectl create -f jupyter
 ```

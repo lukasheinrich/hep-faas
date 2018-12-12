@@ -1,8 +1,0 @@
-provider:
-  name: faas
-  gateway: http://localhost:31112
-functions:
-  yield:
-    lang: pyhf-custom
-    handler: ./yield
-    image: lukasheinrich/yield:latest
